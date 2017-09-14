@@ -7,8 +7,6 @@ import { Ass4Component } from './ass4/ass4.component';
 
 import { AddCricketerAss1Component } from './ass1/add-cricketer-ass1/add-cricketer-ass1.component';
 import { CricketerListAss1Component } from './ass1/cricketer-list-ass1/cricketer-list-ass1.component';
-import { CricketerListAss2Component } from './ass2/cricketer-list-ass2/cricketer-list-ass2.component';
-import { AddCricketerAss2Component } from './ass2/add-cricketer-ass2/add-cricketer-ass2.component';
 import { CricketerDetailAss1Component } from './ass1/cricketer-detail-ass1/cricketer-detail-ass1.component';
 
 const appRoutes: Routes = [
