@@ -1,0 +1,18 @@
+<h5 class="red bold">CLICK ON THE LINKS IN SUBMENU BELOW TO ADD PLAYER AND SEE PLAYER LISTS......</h5>
+<nav class="navbar navbar-default" style="background-color:aquamarine;color:brown;font-weight:bold;margin:0%">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+          <a [routerLink]="['add']">Add a Cricketer <span class="sr-only">(current)</span></a></li>
+        <li>
+          <a [routerLink]="['list']">Cricketers List</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <br>
+  <router-outlet></router-outlet>
+</div>
